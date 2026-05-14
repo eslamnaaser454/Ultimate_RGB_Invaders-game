@@ -1,0 +1,24 @@
+name: rgb_invaders_dashboard
+description: "Ultimate RGB Invaders - Live ESP32 Telemetry Dashboard"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.8.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  web_socket_channel: ^3.0.3
+  provider: ^6.1.5
+  google_fonts: ^6.2.1
+  shimmer: ^3.0.0
+  shared_preferences: ^2.5.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
